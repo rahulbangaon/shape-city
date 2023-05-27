@@ -60,3 +60,28 @@ img{
     width: 100%;
     object-fit: cover;
 }
+
+.btn{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-secondary-light);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    color: var(--color-secondary-light);
+    background: black;
+}
+
+.btn.lg{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.btn.sm{
+    padding: .4rem 1.2rem;
+    font-size: 0.9rem;
+}
