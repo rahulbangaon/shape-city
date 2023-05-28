@@ -1,0 +1,37 @@
+
+.values-container{
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
+}
+
+.values-image{
+    filter: saturate(0.25);
+    height: 100%;
+    transition: var(--transition);
+}
+
+.values-image:hover{
+    filter: saturate(1);
+}
+
+.values-right > p{
+    margin: 1.5rem 0 5rem;
+}
+
+.values-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.4rem 2.4rem;
+}
+
+.values-card{
+    padding-top: 3.5rem;
+    text-align: left;
+    position: relative;
+}
+
+.values-card span{
+    position: absolute;
+    top: -1.5rem;
+}

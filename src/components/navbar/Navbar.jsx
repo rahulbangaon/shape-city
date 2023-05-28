@@ -29,7 +29,7 @@ const Navbar = () => {
 
         {/* nav links */}
         <ul className={`nav-links ${isNavActive ? "show-nav" : "hide-nav"}`}>
-          {links.map(({ name, path, index }) => {
+          {links.map(({ name, path,index}) => {
             return (
               <li className="nav-item" key={index}>
                 <NavLink

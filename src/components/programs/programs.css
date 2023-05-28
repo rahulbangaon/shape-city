@@ -1,0 +1,25 @@
+.programs{
+    padding-top: 4rem;
+    margin-top: 0;
+}
+
+.programs-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    padding-top: 4rem;
+}
+
+.programs-program a{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: center;
+    background: black;
+    color: var(--color-secondary-light);
+}
+
+.programs-program:hover a{
+    background: var(--color-primary-light);
+    color: black;
+}

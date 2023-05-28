@@ -1,0 +1,38 @@
+.faqs-wrapper{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 5rem;
+    align-items: flex-start;
+}
+
+.faq{
+    background: var(--color-primary-light);
+    color: black;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/* FAQ */
+
+.faq .question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq .question span{
+    font-size: 1.5rem;
+}
+
+.faq .answer {
+    margin-top: 1.5rem;
+}
+
+.answer-hide{
+    display: none;
+}
+
+.answer-show{
+    display: block;
+}
