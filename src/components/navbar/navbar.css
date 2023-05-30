@@ -24,6 +24,7 @@ nav{
 .logo{
     width: 20rem;
     cursor: pointer;
+    display: block;
 }
 
 .nav-links{

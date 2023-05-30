@@ -1,0 +1,98 @@
+footer{
+    background: var(--color-secondary-light);
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 24rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+.footer-container article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+.footer-container article p{
+    margin-top: .5rem;
+}
+.footer-container article h4{
+    margin-bottom: .6rem;
+    font-size: 1rem;
+}
+
+.footer-socials{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-socials a{
+    background: var(--color-primary-light);
+    padding: .4rem .55rem .2rem;
+    border: 1px solid transparent;
+    border-radius: .6rem;
+    transition: var(--transition);
+}
+
+.footer-socials a svg{
+    font-size: 1rem;
+}
+
+.footer-socials a:hover{
+    background: black;
+    color: white;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid var(--color-primary-light);
+    margin-top: 5rem;
+}
+
+.footer-copyright a{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* meida queries for medim devices */
+
+@media screen and (max-width: 1024px) {
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+
+/* meida queries for small devices */
+
+@media screen and (max-width: 600px) {
+    footer{
+        margin-top: 5rem;
+        padding-top: 3rem;
+    }
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .footer-container article{
+        align-items: center;
+    }
+
+    .footer-container article p {
+        text-align: center;
+    }
+
+    .footer-copyright{
+        margin-top: 3rem;
+    }
+}

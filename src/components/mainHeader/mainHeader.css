@@ -58,3 +58,41 @@ header{
 .main-header-right:hover .circle-container{
     transform: scale(1.2);
 }
+
+
+
+/* media queries for medium screens */
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main-header-container{
+        gap: 0;
+    }
+    .main-header-right .circle-container{
+        width: 16rem;
+    }
+}
+
+
+/* meida queries for small devices */
+
+@media screen and (max-width: 600px) {
+    header{
+        margin-top: 0;
+        padding: 8rem 0 0;
+        height: auto;
+    }
+    .main-header-container{
+        grid-template-columns: 1fr;
+    }
+    .main-header-left{
+        margin: 3rem 0;
+        order: 2;
+    }
+
+    
+}

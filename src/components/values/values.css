@@ -35,3 +35,32 @@
     position: absolute;
     top: -1.5rem;
 }
+
+/* meida queries for medim devices */
+
+@media screen and (max-width: 1024px) {
+    .values-container{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .values-wrapper{
+        gap: 4rem 3rem;
+    }
+}
+
+
+/* meida queries for small devices */
+
+@media screen and (max-width: 600px) {
+    .values-wrapper{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .values-card{
+        width: 84%;
+        margin-inline: auto;
+        padding: 2.5rem 1.5rem;
+    }
+}

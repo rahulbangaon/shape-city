@@ -60,3 +60,20 @@
     aspect-ratio: 1;
     fill: var(--color-primary-light);
 }
+
+/* meida queries for medim devices */
+
+@media screen and (max-width: 1024px) {
+    .testimonials{
+        width: 75%;
+    }
+}
+
+
+/* meida queries for small devices */
+
+@media screen and (max-width: 600px) {
+    .testimonials{
+        width: 100%;
+    }
+}

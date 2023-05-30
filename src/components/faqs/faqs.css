@@ -36,3 +36,25 @@
 .answer-show{
     display: block;
 }
+
+
+/* meida queries for medim devices */
+
+@media screen and (max-width: 1024px) {
+    .faqs-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* meida queries for small devices */
+
+@media screen and (max-width: 600px) {
+    .faqs{
+        margin-top: 5rem;
+    }
+    .faqs-wrapper{
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+}

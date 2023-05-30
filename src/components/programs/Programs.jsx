@@ -23,7 +23,7 @@ const Programs = () => {
                 <small>{info}</small>
                 <Link to={path} className="btn sm">
                   Learn More <AiFillCaretRight />{" "}
-                </Link>
+                 </Link>
               </Card>
             );
           })}
