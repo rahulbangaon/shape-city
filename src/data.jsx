@@ -97,7 +97,6 @@ export const values = [
   },
 ];
 
-
 // FAQs
 
 export const faqs = [
@@ -141,114 +140,53 @@ export const faqs = [
 
 // testimonial section
 
-// export const testimonials = [
-//   {
-//     id: 1,
-//     name: "Diana Ayi",
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-//     job: "Student",
-//     avatar: require("./images/avatar1.jpg"),
-//   },
-//   {
-//     id: 2,
-//     name: "Daniel Vinyo",
-//     quote:
-//       "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-//     job: "Software Egineer",
-//     avatar: require("./images/avatar2.jpg"),
-//   },
-//   {
-//     id: 3,
-//     name: "Edem Quist",
-//     quote:
-//       "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-//     job: "University Lecturer",
-//     avatar: require("./images/avatar3.jpg"),
-//   },
-//   {
-//     id: 4,
-//     name: "Grace Lavoe",
-//     quote:
-//       "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-//     job: "Talking Parrot",
-//     avatar: require("./images/avatar4.jpg"),
-//   },
-//   {
-//     id: 5,
-//     name: "Nana Yaa Dankwa",
-//     quote:
-//       "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-//     job: "Pharmacist",
-//     avatar: require("./images/avatar5.jpg"),
-//   },
-// ];
+import avatar1 from "./assets/images/home/avatar1.jpg";
+import avatar2 from "./assets/images/home/avatar2.jpg";
+import avatar3 from "./assets/images/home/avatar3.jpg";
+import avatar4 from "./assets/images/home/avatar4.jpg";
+import avatar5 from "./assets/images/home/avatar5.jpg";
 
 
-// plans
+export const testimonials = [
+  {
+    id: 1,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+    job: "Student",
+    avatar: avatar1,
+  },
+  {
+    id: 2,
+    name: "Daniel Vinyo",
+    quote:
+      "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+    job: "Software Egineer",
+    avatar: avatar2,
+  },
+  {
+    id: 3,
+    name: "Edem Quist",
+    quote:
+      "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+    job: "University Lecturer",
+    avatar: avatar3,
+  },
+  {
+    id: 4,
+    name: "Grace Lavoe",
+    quote:
+      "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+    job: "Talking Parrot",
+    avatar: avatar4,
+  },
+  {
+    id: 5,
+    name: "Nana Yaa Dankwa",
+    quote:
+      "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+    job: "Pharmacist",
+    avatar: avatar5,
+  },
+];
 
-// export const plans = [
-//   {
-//     id: 1,
-//     name: "Silver Package",
-//     desc: "This package is perfect for beginners who need constant help",
-//     price: 29.99,
-//     features: [
-//       { feature: "First Feature", available: true },
-//       { feature: "Second Feature", available: true },
-//       { feature: "Third Feature", available: true },
-//       { feature: "Fourth Feature", available: true },
-//       { feature: "Fifth Feature", available: true },
-//       { feature: "Fifth Feature Plus", available: false },
-//       { feature: "Sixth Feature", available: false },
-//       { feature: "Seventh Feature", available: false },
-//       { feature: "Seventh Feature Plus", available: false },
-//       { feature: "Eighth Feature", available: false },
-//       { feature: "Ninth Feature", available: false },
-//       { feature: "Tenth Feature", available: false },
-//       { feature: "Eleventh Feature", available: false },
-//     ],
-//   },
-//   {
-//     id: 2,
-//     name: "Gold Package",
-//     desc: "This is the perfect package for beginners who know what their doing",
-//     price: 49.99,
-//     features: [
-//       { feature: "First Feature", available: true },
-//       { feature: "Second Feature", available: true },
-//       { feature: "Third Feature", available: true },
-//       { feature: "Fourth Feature", available: true },
-//       { feature: "Fifth Feature", available: true },
-//       { feature: "Fifth Feature Plus", available: true },
-//       { feature: "Sixth Feature", available: true },
-//       { feature: "Seventh Feature", available: true },
-//       { feature: "Seventh Feature Plus", available: true },
-//       { feature: "Eighth Feature", available: false },
-//       { feature: "Ninth Feature", available: false },
-//       { feature: "Tenth Feature", available: false },
-//       { feature: "Eleventh Feature", available: false },
-//     ],
-//   },
-//   {
-//     id: 3,
-//     name: "Platinum Package",
-//     desc: "This package is perfect for busy people who need home service",
-//     price: 89.99,
-//     features: [
-//       { feature: "First Feature", available: true },
-//       { feature: "Second Feature", available: true },
-//       { feature: "Third Feature", available: true },
-//       { feature: "Fourth Feature", available: true },
-//       { feature: "Fifth Feature", available: true },
-//       { feature: "Fifth Feature Plus", available: true },
-//       { feature: "Sixth Feature", available: true },
-//       { feature: "Seventh Feature", available: true },
-//       { feature: "Seventh Feature Plus", available: true },
-//       { feature: "Eighth Feature", available: true },
-//       { feature: "Ninth Feature", available: true },
-//       { feature: "Tenth Feature", available: true },
-//       { feature: "Eleventh Feature", available: true },
-//     ],
-//   },
-// ];
