@@ -1,0 +1,25 @@
+.trainers-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+/* media queries for medium devices */
+
+@media screen and (max-width:1024px) {
+
+    .trainers-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+/* media queries for small devices */
+
+@media screen and (max-width:600px) {
+
+    .trainers-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

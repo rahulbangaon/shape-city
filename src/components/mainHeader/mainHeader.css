@@ -1,4 +1,4 @@
-header{
+.main-header{
     height: calc(100vh - 3rem);
     width: 100vw;
     display: grid;
@@ -64,7 +64,7 @@ header{
 /* media queries for medium screens */
 
 @media screen and (max-width: 1024px) {
-    header{
+    .main-header{
         height: fit-content;
         padding: 12rem 0;
     }
@@ -81,7 +81,7 @@ header{
 /* meida queries for small devices */
 
 @media screen and (max-width: 600px) {
-    header{
+    .main-header{
         margin-top: 0;
         padding: 8rem 0 0;
         height: auto;

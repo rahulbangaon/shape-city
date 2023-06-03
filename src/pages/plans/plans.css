@@ -1,0 +1,65 @@
+.plans-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.plan-card h3{
+    margin-bottom: .8rem;
+}
+
+.plan-card small{
+    margin-bottom: 2rem;
+}
+
+.plan-card h1{
+    display: inline;
+}
+
+.plan-card h2{
+    display: inline;
+    color: rgb(35, 34, 34);
+}
+
+.plan-card h4{
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.plan-card p{
+    margin-top: 1rem;
+}
+
+.plan-card p.disabled{
+    color: blueviolet;
+}
+
+.plan-card button{
+    margin-top: 3rem;
+    cursor: pointer;
+    background: var(--color-primary-light);
+}
+
+/* media queries for medium screens */
+
+@media screen and (max-width:1024px) {
+    .plans-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+}
+
+/* media queries for small screens */
+
+@media screen and (max-width:600px) {
+    .plans-container{
+        grid-template-columns: 1fr;
+    }
+
+    .plan-card{
+        width: 90%;
+        margin-inline: auto;
+    }
+    
+}

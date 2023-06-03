@@ -1,0 +1,23 @@
+.error{
+    margin: 12rem 0;
+}
+
+.error-container{
+    text-align: center;
+}
+
+.error-container h1{
+    margin-bottom: 3rem;
+}
+
+.error-container .btn{
+    font-weight: 500;
+    background: var(--color-primary-light);
+    color: black;
+    transition: var(--transition);
+}
+
+.error-container .btn:hover{
+    background: black;
+    color: var(--color-primary-light);
+}

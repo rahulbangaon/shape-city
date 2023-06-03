@@ -34,7 +34,7 @@ footer{
 
 .footer-socials a{
     background: var(--color-primary-light);
-    padding: .4rem .55rem .2rem;
+    padding: .6rem;
     border: 1px solid transparent;
     border-radius: .6rem;
     transition: var(--transition);
@@ -42,6 +42,8 @@ footer{
 
 .footer-socials a svg{
     font-size: 1rem;
+    display: block;
+    width: fit-content;
 }
 
 .footer-socials a:hover{

@@ -146,7 +146,6 @@ import avatar3 from "./assets/images/home/avatar3.jpg";
 import avatar4 from "./assets/images/home/avatar4.jpg";
 import avatar5 from "./assets/images/home/avatar5.jpg";
 
-
 export const testimonials = [
   {
     id: 1,
@@ -190,3 +189,193 @@ export const testimonials = [
   },
 ];
 
+// gallery data (images for gallery)
+
+import img1 from "./assets/images/gallery/galleryImage1.jpg";
+import img2 from "./assets/images/gallery/galleryImage2.jpg";
+import img3 from "./assets/images/gallery/galleryImage3.jpg";
+import img4 from "./assets/images/gallery/galleryImage4.jpg";
+import img5 from "./assets/images/gallery/galleryImage5.jpg";
+import img6 from "./assets/images/gallery/galleryImage6.jpg";
+import img7 from "./assets/images/gallery/galleryImage7.jpg";
+import img8 from "./assets/images/gallery/galleryImage8.jpg";
+import img9 from "./assets/images/gallery/galleryImage9.jpg";
+import img10 from "./assets/images/gallery/galleryImage10.jpg";
+import img11 from "./assets/images/gallery/galleryImage11.jpg";
+import img12 from "./assets/images/gallery/galleryImage12.jpg";
+import img13 from "./assets/images/gallery/galleryImage13.jpg";
+import img14 from "./assets/images/gallery/galleryImage14.jpg";
+import img15 from "./assets/images/gallery/galleryImage15.jpg";
+
+export const galleryImages = [
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+];
+
+
+// plans page data
+
+export const plans = [
+  {
+    id: 1,
+    name: "Silver Package",
+    desc: "This package is perfect for beginners who need constant help",
+    price: 1999,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Fifth Feature Plus", available: false },
+      { feature: "Sixth Feature", available: false },
+      { feature: "Seventh Feature", available: false },
+      { feature: "Seventh Feature Plus", available: false },
+      { feature: "Eighth Feature", available: false },
+      { feature: "Ninth Feature", available: false },
+      { feature: "Tenth Feature", available: false },
+      { feature: "Eleventh Feature", available: false },
+    ],
+  },
+  {
+    id: 2,
+    name: "Gold Package",
+    desc: "This is the perfect package for beginners who know what their doing",
+    price: 3499,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Fifth Feature Plus", available: true },
+      { feature: "Sixth Feature", available: true },
+      { feature: "Seventh Feature", available: true },
+      { feature: "Seventh Feature Plus", available: true },
+      { feature: "Eighth Feature", available: false },
+      { feature: "Ninth Feature", available: false },
+      { feature: "Tenth Feature", available: false },
+      { feature: "Eleventh Feature", available: false },
+    ],
+  },
+  {
+    id: 3,
+    name: "Platinum Package",
+    desc: "This package is perfect for busy people who need home service",
+    price: 4999,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Fifth Feature Plus", available: true },
+      { feature: "Sixth Feature", available: true },
+      { feature: "Seventh Feature", available: true },
+      { feature: "Seventh Feature Plus", available: true },
+      { feature: "Eighth Feature", available: true },
+      { feature: "Ninth Feature", available: true },
+      { feature: "Tenth Feature", available: true },
+      { feature: "Eleventh Feature", available: true },
+    ],
+  },
+];
+
+
+// trainers page data
+
+import Trainer1 from "./assets/images/trainers/trainer1.jpg";
+import Trainer2 from "./assets/images/trainers/trainer2.jpg";
+import Trainer3 from "./assets/images/trainers/trainer3.jpg";
+import Trainer4 from "./assets/images/trainers/trainer4.jpg";
+import Trainer5 from "./assets/images/trainers/trainer5.jpg";
+import Trainer6 from "./assets/images/trainers/trainer6.jpg";
+
+
+export const trainers = [
+  {
+    id: 1,
+    image: Trainer1,
+    name: "John Doe",
+    job: "Aerobic Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 2,
+    image: Trainer2,
+    name: "Daniel vinyo",
+    job: "Speed Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 3,
+    image: Trainer3,
+    name: "Amilla Quist",
+    job: "Flexibility Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 4,
+    image: Trainer4,
+    name: "Shatta Wale",
+    job: "Body Composition Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 5,
+    image: Trainer5,
+    name: "Diana Ayi",
+    job: "Circuit Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 6,
+    image: Trainer6,
+    name: "Wayne Carter",
+    job: "Physical Intelligence Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+];

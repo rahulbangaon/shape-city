@@ -1,5 +1,4 @@
 import FAQs from "../../components/faqs/FAQs";
-import Footer from "../../components/footer/Footer";
 import MainHeader from "../../components/mainHeader/MainHeader";
 import Programs from "../../components/programs/Programs";
 import Testimonials from "../../components/testimonials/Testimonials";
@@ -15,7 +14,6 @@ const Home = () => {
       <Values />
       <FAQs />
       <Testimonials />
-      <Footer />
     </>
   );
 };

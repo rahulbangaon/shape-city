@@ -15,6 +15,7 @@ import Error from "./pages/error/Error";
 // importing components
 
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -27,8 +28,9 @@ const App = () => {
         <Route path="/plans" element={<Plans />} />
         <Route path="/trainers" element={<Trainers />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path='*' element={<Error />} />
+        <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };

@@ -75,7 +75,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright container">
         <small>
-          Made with 💛 by{" "}
+          Made with ❤️ by {" "}
           <a
             href="https://www.linkedin.com/in/rahulbangaon"
             target="blank"

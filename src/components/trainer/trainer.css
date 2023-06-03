@@ -1,0 +1,47 @@
+.trainer-card{
+    padding: 1rem;
+}
+
+.trainer-card .trainer-image{
+    border-radius: 0 2rem;
+    overflow: hidden;
+}
+
+.trainer-card h3{
+    margin-top: 2rem;
+}
+
+.trainer-card p{
+    margin-top: .5rem;
+}
+
+.trainer-card .trainer-socials{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.trainer-socials a svg{
+    display: block;
+    width: fit-content;
+}
+
+.trainer-socials a{
+    font-size: .9rem;
+    padding: .8rem;
+    border-radius: .7rem;
+    background: var(--color-primary-light);
+}
+
+
+/* media queries for small devices */
+
+@media screen and (max-width:600px) {
+
+    .trainer-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

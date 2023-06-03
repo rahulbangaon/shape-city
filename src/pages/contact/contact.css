@@ -1,0 +1,51 @@
+.contact-container{
+    display: grid;
+    place-items: center;
+}
+
+.contact-wrapper{
+    display: flex;
+    width: fit-content;
+    gap: 3rem;
+}
+
+.contact-wrapper a{
+    background: var(--color-primary-light);
+    font-size: 3rem;
+    border: 2px solid transparent;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.contact-wrapper svg{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+.contact-wrapper a:hover svg{
+    color: white;
+    
+}
+
+
+/* media quries for small devices */
+
+@media screen and (max-width:600px) {
+
+    .contact-container{
+        margin-top: 5rem;
+    }
+
+    .contact-wrapper{
+        gap: 1rem;
+    }
+
+    .contact-wrapper a{
+        padding: 1rem;
+        font-size: 1.4rem;
+        border-radius: 1rem;
+    }
+    
+}

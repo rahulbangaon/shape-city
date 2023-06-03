@@ -6,7 +6,7 @@ import "./mainHeader.css";
 
 const MainHeader = ()=>{
     return (
-        <header>
+        <header className="main-header">
             <div className="container main-header-container">
                 <div className="main-header-left">
                     <h4>#100DaysOfWorkout</h4>
