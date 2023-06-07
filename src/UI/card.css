@@ -1,0 +1,45 @@
+.card{
+    text-align: center;
+    border: 1px solid transparent;
+    background: var(--color-secondary-light);
+    transition: var(--transition);
+}
+
+.card:hover{
+    background: white;
+    border-color: black;
+}
+
+.card span svg{
+    display: inline-block;
+    width: fit-content;
+    padding: .3rem;
+    font-size: 2.5rem;
+    border-radius: 1.5rem;
+    background: black;
+    color: var(--color-primary-light);
+    position: absolute;
+    bottom: -1.3rem;
+    left: calc(50% - 1.2rem);
+}
+
+.card span{
+    display: block;
+    background: var(--color-primary-light);
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+
+
+.card small {
+    font-weight: 300;
+    margin-top: 1rem;
+    display: block;
+    padding-inline: 2rem;
+}
+
+.card .btn{
+    margin-bottom: 3rem;
+}

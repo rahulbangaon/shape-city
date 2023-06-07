@@ -42,10 +42,14 @@
     .programs-program{
         width: 84%;
         margin-inline: auto;
-        padding: 2rem .5rem;
     }
 
-    .programs-program a{
-        margin-top: 1.5rem;
+    .programs-program small{
+        padding: 1rem;
+    }
+
+    .programs-program .btn{
+        margin-top: .5rem;
+        margin-bottom: 1.5rem;
     }
 }

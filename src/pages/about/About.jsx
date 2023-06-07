@@ -12,9 +12,9 @@ const About = () => {
     <>
       <Header title={"About Us"} image={headerImage}>
         <p>
-          We are the leading Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Pariatur ut eius dicta libero consequatur adipisci officia esse
-          facere.
+          Shape City is a forward-thinking, luxury fitness club with an emphasis
+          on community and customer experience. We believe that all people
+          should strive to live pain-free, healthy, and well-rounded lives.
         </p>
       </Header>
 
@@ -28,18 +28,14 @@ const About = () => {
           <div className="about-content about-story-content">
             <h1>Our Story</h1>
             <p>
-              We are team of lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Commodi, atque! Ipsum vitae vero dolore quas numquam ex
-              ratione iusto optio aperiam, voluptate sunt!
+              We’re a passionate and committed team, unified by our mission to
+              build the most engaged community of athletes in the world.
             </p>
             <p>
-              Adding to this lorem ipsum dolor sit amet consectetur adipisicing
-              quaerat tempora cum fugiat natus.
-            </p>
-            <p>
-              Our success story lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Dolores tempora nisi ad velit vitae laborum
-              earum atque in.
+              To enhance the quality of life in the communities, we serve
+              through our fitness philosophy, facilities, programs, and products
+              and to instill in the lives of people everywhere the value of
+              health and fitness.
             </p>
           </div>
         </div>
@@ -53,16 +49,10 @@ const About = () => {
             <h1>Our Vision</h1>
 
             <p>
-              Our vision lorem ipsum dolor sit amet consectetur, adipisicing
-              elit. Dolores tempora nisi ad velit vitae laborum earum atque in.
-            </p>
-
-            <p>
-              Adding to this lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Ullam in, aliquid aliquam, illum voluptas dolores modi odio,
-              possimus facere explicabo adipisci voluptatem labore molestias
-              quaerat tempora cum fugiat natus.
-            </p>
+              To provide a high-quality fitness experience in a welcoming,
+              non-intimidating environment, which we call the Judgement Free
+              Zone, where anyone can feel they belong.
+            </p>  
           </div>
           <div className="about-image about-vision-image">
             <img src={visionImage} alt="Our Mission Image" />
@@ -81,15 +71,14 @@ const About = () => {
             <h1>Our Mission</h1>
 
             <p>
-              Our mission lorem ipsum dolor sit amet consectetur, adipisicing
-              elit. Dolores tempora nisi ad velit vitae laborum earum atque in.
+              We are passionate about high-performance living and we practice
+              what we preach – investing time in our health and fitness.
             </p>
 
             <p>
-              Adding to this lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Ullam in, aliquid aliquam, illum voluptas dolores modi odio,
-              possimus facere explicabo adipisci voluptatem labore molestias
-              quaerat tempora cum fugiat natus.
+              We believe that everyone has untapped potential within them and it
+              takes a disruptive approach to unleash it. We dream big and don’t
+              settle for the status quo.
             </p>
           </div>
         </div>

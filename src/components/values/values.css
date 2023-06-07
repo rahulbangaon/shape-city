@@ -9,6 +9,7 @@
     filter: saturate(0.25);
     height: 100%;
     transition: var(--transition);
+    border-radius: 3rem 0 3rem 0;
 }
 
 .values-image:hover{
@@ -25,24 +26,32 @@
     gap: 3.4rem 2.4rem;
 }
 
-.values-card{
-    padding-top: 3.5rem;
-    text-align: left;
-    position: relative;
+.value-card{
+    border-radius: 0 3rem 0 3rem;
 }
 
-.values-card span{
-    position: absolute;
-    top: -1.5rem;
+.value-card span{
+    border-top-right-radius: 3rem;
+}
+
+.value-card small{
+    padding-bottom: 2rem;
 }
 
 /* meida queries for medim devices */
 
 @media screen and (max-width: 1024px) {
+
+    .values{
+        width: 84%;
+        margin-top: 4rem;
+        margin-inline: auto;
+    }
+
     .values-container{
         grid-template-columns: 1fr;
         justify-content: center;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .values-wrapper{

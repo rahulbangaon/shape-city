@@ -13,7 +13,6 @@
 .gallery-container article{
     border: 1px solid var(--color-primary-light);
     transition: var(--transition);
-    /* width: 80%; */
 }
 
 .gallery-container article:hover{

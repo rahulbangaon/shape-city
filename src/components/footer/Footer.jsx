@@ -16,9 +16,10 @@ const Footer = () => {
             <img src={logo} alt="Logo" />
           </Link>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut
-            doloremque maiores? Recusandae voluptatum itaque saepe quia id nisi.
-            Blanditiis.
+            Shape City is a forward-thinking, luxury fitness club with an
+            emphasis on community and customer experience. We believe that all
+            people should strive to live pain-free, healthy, and well-rounded
+            lives.
           </p>
           <div className="footer-socials">
             <a
@@ -54,7 +55,7 @@ const Footer = () => {
         <article>
           <h4>Permalinks</h4>
           <Link to={"/about"}>About</Link>
-          <Link to={"/plans"}>Plans</Link>
+          <Link to={"/memberships"}>Memberships</Link>
           <Link to={"/trainers"}>Trainers</Link>
           <Link to={"/gallery"}>Gallery</Link>
           <Link to={"/contact"}>Contact</Link>
@@ -75,7 +76,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright container">
         <small>
-          Made with ❤️ by {" "}
+          Made with ❤️ by{" "}
           <a
             href="https://www.linkedin.com/in/rahulbangaon"
             target="blank"

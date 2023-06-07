@@ -16,8 +16,12 @@ const Trainers = () => {
     <>
       <Header image={headerImage} title={"Our Team"}>
         <p>
-          We got some legends of the fitness world Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Dolorem, possimus.
+          The Shape City Team is made up of a small number of highly-qualified
+          coaches who have completed The Shape City Internship and Training
+          Programs, attained numerous other credentials in multiple fields, and
+          demonstrated the high level of passion and commitment that our members
+          deserve. They’re also a fun group that take their work seriously, but
+          not themselves.
         </p>
       </Header>
       <section className="trainers">

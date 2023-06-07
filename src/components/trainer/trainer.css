@@ -1,5 +1,6 @@
 .trainer-card{
     padding: 1rem;
+    border-radius: 0 2rem;
 }
 
 .trainer-card .trainer-image{
@@ -33,6 +34,12 @@
     padding: .8rem;
     border-radius: .7rem;
     background: var(--color-primary-light);
+    transition: var(--transition);
+}
+
+.trainer-socials a:hover{
+    color: white;
+    background: black;
 }
 
 

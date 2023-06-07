@@ -13,16 +13,16 @@ const Testimonials = () => {
   const [index, setIndex] = useState(0);
   const { id, name, quote, job, avatar } = testimonials[index];
 
-  const prevTestimonialHandler = ()=>{
-    setIndex(prev => prev-1);
-    if(index <= 0){
-        setIndex(testimonials.length-1);
+  const prevTestimonialHandler = () => {
+    setIndex((prev) => prev - 1);
+    if (index <= 0) {
+      setIndex(testimonials.length - 1);
     }
-  }
+  };
 
   const nextTestimonialHandler = () => {
     setIndex((prev) => prev + 1);
-    if (index >= testimonials.length-1) {
+    if (index >= testimonials.length - 1) {
       setIndex(0);
     }
   };
@@ -37,10 +37,15 @@ const Testimonials = () => {
         />
         <div className="testimonial-wrapper">
           <Card className={"testimonial-card"}>
-            <img className="testimonial-avatar" src={avatar} alt={name} />
-            <p className="testimonial-quote">{`"${quote}"`}</p>
-            <h5>{name}</h5>
-            <small>{job}</small>
+            <span className="testimonial-avatar-container">
+              {" "}
+              <img className="testimonial-avatar" src={avatar} alt={name} />
+            </span>
+            <div className="testimonial-content">
+              <p className="testimonial-quote">{`"${quote}"`}</p>
+              <h5>{name}</h5>
+              <small>{job}</small>
+            </div>
           </Card>
           <div className="testimonials-btn-container">
             <button

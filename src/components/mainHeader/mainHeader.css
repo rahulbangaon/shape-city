@@ -4,7 +4,7 @@
     display: grid;
     place-items: center;
     margin-top: 3rem;
-    background-color: var(--color-primary-light);
+    background: var(--color-primary-light);
 }
 
 .main-header-container{
@@ -27,7 +27,7 @@
 
 .main-header-left p{
     margin: 1rem 0 3.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(25, 24, 24);
 }
 

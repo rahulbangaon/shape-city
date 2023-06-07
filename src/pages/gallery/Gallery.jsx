@@ -10,9 +10,8 @@ const Gallery = () => {
     <>
       <Header title={"Gallery"} image={headerImage}>
         <p>
-          Look at the leading Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Pariatur ut eius dicta libero consequatur adipisci officia esse
-          facere.
+          Shape City has one of the best tools and trainers from all around the world which makes your fitness journey very easy and comfort.
+          Took a look at at our of Shape City gallery.
         </p>
       </Header>
       <section className=" container gallery">

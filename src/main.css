@@ -14,6 +14,7 @@
 }
 
 :root{
+    /* --color-primary-light: #ffaa00; */
     --color-primary-light: #ffaa00;
     --color-primary-dark: #f78888;
     --color-secondary-light: #ececec;
@@ -81,6 +82,7 @@ img{
     padding: 1.2rem 3rem;
     border-radius: 2rem;
     font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .btn.sm{
@@ -93,51 +95,6 @@ img{
 section{
     margin-top: 7rem;
 }
-
-
-
-.card{
-    background: var(--color-secondary-light);
-    border: 2px solid black;
-    text-align: center;
-    padding: 3rem 2rem;
-    border-radius:  0 3rem 0 3rem;
-    transition: var(--transition);
-}
-
-.card:hover{
-    color: var(--color-secondary-light);
-    background: black;
-    border-color: var(--color-primary-light);
-}
-
-.card span{
-    width: 3rem;
-    aspect-ratio: 1;
-    display: grid;
-    place-items: center;
-    color: var(--color-primary-light);
-    background: black;
-    padding: 0.8rem;
-    font-size: 1.5rem;
-    border-radius: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-inline: auto;
-    transition: var(--transition);
-}
-
-.card:hover span{
-    background: var(--color-primary-light);
-    color: black;
-}
-
-.card small{
-    font-weight: 300;
-    margin-top: 1rem;
-    display: block;
-}
-
-
 
 /* media queries for medium devices */
 

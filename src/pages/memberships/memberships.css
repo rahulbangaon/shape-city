@@ -4,6 +4,14 @@
     gap: 3rem;
 }
 
+.plan-card span{
+    height: 5rem;
+}
+
+.plan-card .membership-icon svg{
+    font-size: 3rem;
+}
+
 .plan-card h3{
     margin-bottom: .8rem;
 }
@@ -31,7 +39,7 @@
 }
 
 .plan-card p.disabled{
-    color: blueviolet;
+    opacity: .5;
 }
 
 .plan-card button{

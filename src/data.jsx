@@ -18,8 +18,8 @@ export const links = [
   },
   {
     index: 3,
-    name: "Plans",
-    path: "/plans",
+    name: "Memberships",
+    path: "/memberships",
   },
   {
     index: 4,
@@ -41,29 +41,29 @@ export const programs = [
   {
     id: 1,
     icon: <SiOpenaigym />,
-    title: "Program One",
-    info: "This is the day that the lord has made. We will rejoice!",
+    title: "Personal Training",
+    info: "We got you! Our expert trainers are now accepting new clients for personal training just for you and your goals. ",
     path: "/programs/111",
   },
   {
     id: 2,
     icon: <SiOpenaigym />,
-    title: "Program Two",
-    info: "This is the day that the lord has made. We will rejoice!",
+    title: "Custom Fitness Program",
+    info: "Your custom fitness program will be designed by an elite personal trainers who is uniquely paired with you.",
     path: "/programs/222",
   },
   {
     id: 3,
     icon: <SiOpenaigym />,
-    title: "Program Three",
-    info: "This is the day that the lord has made. We will rejoice!",
+    title: "Private Boxing",
+    info: "Whether you’re simply looking for a fun or to level up your skills in the ring, boxing can be a great choice for you. ",
     path: "/programs/333",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
-    title: "Program Four",
-    info: "This is the day that the lord has made. We will rejoice!",
+    title: "Physical Therapy",
+    info: "Physical Therapy has recently come to Shape City! With experinced Therapist in the industry.",
     path: "/programs/444",
   },
 ];
@@ -74,26 +74,26 @@ export const values = [
   {
     id: 1,
     icon: <SiOpenaigym />,
-    title: "Value One",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Empower",
+    desc: "We strive to ignite a sense of strength, determination and success that contribute to a higher quality of life for others and ourselves.",
   },
   {
     id: 2,
     icon: <SiOpenaigym />,
-    title: "Value Two",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Passion",
+    desc: "Shape City is more than just a gym, we bulid community and foster a lifelong love of our family.",
   },
   {
     id: 3,
     icon: <SiOpenaigym />,
-    title: "Value Three",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Cultivate Growth",
+    desc: "Cultivating a growth mindset reflects our beliefs that we alwas have capacity to improve personally and profesionally.",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
-    title: "Value Four",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Inclusive",
+    desc: "Shape City is Home for all, regardless of our background, beliefs, or identity.",
   },
 ];
 
@@ -104,37 +104,37 @@ export const faqs = [
     id: 1,
     question: "How often should I exercise?",
     answer:
-      "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
+      "As a general goal, aim for at least 30 minutes of moderate physical activity every day. If you want to lose weight, maintain weight loss or meet specific fitness goals, you may need to exercise more.",
   },
   {
     id: 2,
     question: "What time of day is best to work out?",
     answer:
-      "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.",
+      "What really matters is that you find a time of day that works for you and that fits your schedule, and then stick to it. By keeping your workout regime consistent at the same time every day, you could be making greater training gains. And isn’t that what really matters?",
   },
   {
     id: 3,
     question: "How long should my workouts be?",
     answer:
-      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      " On an average, it’s probably going to take somewhere between 45 and 90 minutes. For most people, 45 to 90 minutes is enough to get the job done.",
   },
   {
     id: 4,
     question: "Do I need to warm up before my workouts?",
     answer:
-      "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!",
+      "Yes you should Warm up properly before exercising to prevent injury and make your workouts more effective. This warm-up routine should take at least 6 minutes. Warm up for longer if you feel the need.",
   },
   {
     id: 5,
     question: "Should I do strength training, cardio or both?",
     answer:
-      "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.",
+      "If your main goal is weight loss, you want to burn calories and build muscle mass. So, for optimal benefits, you should incorporate both cardio and strength training into your exercise routine.",
   },
   {
     id: 6,
     question: "Should I lift weights for strength training?",
     answer:
-      "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.",
+      "For most people, a single set of 12 to 15 repetitions with a weight that fatigues the muscles can build strength efficiently and can be as effective as three sets of the same exercise. As you get stronger, gradually increase the amount of weight.",
   },
 ];
 
@@ -151,7 +151,7 @@ export const testimonials = [
     id: 1,
     name: "Diana Ayi",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+      "Shape City is the cleanest and most organized gym I’ve ever seen! I have no words to say how wonderful they are! Shape City has a team of excellence! They have a place for anyone, a plan for any goal, everything is very flexible! I am extremely satisfied with Shape City and the entire team. 1 to 10. They are 11🥇",
     job: "Student",
     avatar: avatar1,
   },
@@ -159,7 +159,7 @@ export const testimonials = [
     id: 2,
     name: "Daniel Vinyo",
     quote:
-      "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+      "Since joining Shape City 7 months ago I have lost 25 pounds.  My favorite workouts are in small group.  The trainers can give everyone as much attention as they need.  They also push you to really challenge yourself with every workout. Everyone wants everyone else to succeed and become the best version of themselves.",
     job: "Software Egineer",
     avatar: avatar2,
   },
@@ -167,7 +167,7 @@ export const testimonials = [
     id: 3,
     name: "Edem Quist",
     quote:
-      "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+      "I have trained at Shape City for over 3 years.  When I was diagnosed with cancer a year after joining Shape City. Through 1:1 and small group training I have regained my strength and confidence. I feel healthy & strong again.  I find the workouts always motivating & challenging, different workouts every day and the trainers are fantastic! It truly is a fitfam!",
     job: "University Lecturer",
     avatar: avatar3,
   },
@@ -175,15 +175,14 @@ export const testimonials = [
     id: 4,
     name: "Grace Lavoe",
     quote:
-      "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "Talking Parrot",
+      "It has been almost one year and I have lost weight and increased my strength.  I find the coaches – so motivating and supportive.  During the shred I worked with John and he was very motivating and held me accountable.  The nutritional guidance and meal plans are easy to follow that is realistic and plenty of food. Everyone is extremely – REAL – supportive, FUN, KNOWLEDGABLE and challenging",
     avatar: avatar4,
   },
   {
     id: 5,
     name: "Nana Yaa Dankwa",
     quote:
-      "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+      "I joined Shape City about 8 months ago and I lost 52lbs.  My favorite thing about their workouts is how much the coaches care and push you.  The best thing working with an accountability coach is their never ending availability to ask questions and get support.   I found their nutritional guidance and meal plans were easy to follow and modify.  I really appreciate everyone.",
     job: "Pharmacist",
     avatar: avatar5,
   },
@@ -228,7 +227,7 @@ export const galleryImages = [
 
 // plans page data
 
-export const plans = [
+export const memberships = [
   {
     id: 1,
     name: "Silver Package",

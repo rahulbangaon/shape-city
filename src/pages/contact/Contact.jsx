@@ -14,16 +14,29 @@ const Contact = () => {
     <>
       <Header title={"Get In Touch"} image={headerImage}>
         <p>
-          For any queries, lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Illum nesciunt, aliquid suscipit asperiores a reiciendis
-          voluptas ipsum iste similique magni!
+          Our team is always ready to hear from you when you Contact Us. Shape
+          City is one of the top fitness club and we are available 24/7.
         </p>
       </Header>
       <section className="container contact-container">
         <div className="contact-wrapper">
-          <a href="mailto:rahulbangaon@yahoo.com" target="blank" rel="noreferrer noopener"><MdEmail/></a>
-          <a href="mailto:rahulbangaon@yahoo.com" target="blank" rel="noreferrer noopener"><IoLogoWhatsapp/></a>
-          <a href="mailto:rahulbangaon@yahoo.com" target="blank" rel="noreferrer noopener"><BsMessenger/></a>
+          <a
+            href="mailto:rahulbangaon@yahoo.com"
+            target="blank"
+            rel="noreferrer noopener"
+          >
+            <MdEmail />
+          </a>
+          <a href="https://wa.me/" target="blank" rel="noreferrer noopener">
+            <IoLogoWhatsapp />
+          </a>
+          <a
+            href="https://www.messenger.com"
+            target="blank"
+            rel="noreferrer noopener"
+          >
+            <BsMessenger />
+          </a>
         </div>
       </section>
     </>

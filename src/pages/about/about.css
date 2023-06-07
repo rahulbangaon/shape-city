@@ -43,21 +43,21 @@
         gap: 2rem;
     }
 
-        .about-image img {
-            margin-inline: auto;
-            border: none;
-            border-radius: 1.5rem;
-            width: 65%;
-        }
+    .about-image img {
+        margin-inline: auto;
+        border: none;
+        border-radius: 1.5rem;
+        width: 65%;
+    }
 
-        .about-vision-image{
-            grid-row: 1;
-        }
+    .about-vision-image{
+        grid-row: 1;
+    }
 
-        section{
-            margin-top: 3rem;
-        }
-    
+    section{
+        margin-top: 3rem;
+    }
+
 }
 
 /* media queries for small devices */
@@ -68,18 +68,18 @@
         width: 100%;
     }
 
-        .about-story-container,
-        .about-mission-container,
-        .about-vision-container{
-            width: 85%;
-        }
+    .about-story-container,
+    .about-mission-container,
+    .about-vision-container{
+        width: 85%;
+    }
 
-        .about-content h1{
-            font-size: 1.8rem;
-        }
+    .about-content h1{
+        font-size: 1.8rem;
+    }
 
-        .about-content p{
-            font-size: .9rem;
-        }
+    .about-content p{
+        font-size: .9rem;
+    }
     
 }

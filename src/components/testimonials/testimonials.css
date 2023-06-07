@@ -9,9 +9,13 @@
 
 .testimonial-card{
     position: relative;
-    text-align: left;
+    text-align: center;
     margin-top: 5rem;
 
+}
+
+.testimonial-avatar-container{
+    height: 3.5rem;
 }
 
 .testimonial-avatar{
@@ -21,7 +25,7 @@
     border: 2px solid transparent;
     position: absolute;
     overflow: hidden;
-    top: -2rem;
+    bottom: -2rem;
     left: calc(50% - 2rem);
     box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, .4);
     transition: var(--transition);
@@ -29,6 +33,10 @@
 
 .testimonials:hover .testimonial-avatar{
     border-color: var(--color-primary-light);
+}
+
+.testimonial-content{
+    padding: 0.5rem 2rem 2rem 2rem;
 }
 
 .testimonial-card .testimonial-quote{

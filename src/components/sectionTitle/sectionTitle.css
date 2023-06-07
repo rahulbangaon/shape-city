@@ -7,7 +7,12 @@
 .section-title span {
     background: var(--color-primary-light);
     font-size: 1.6rem;
-    padding: 0.4rem 0.8rem;
+    padding: 0.8rem;
     border-radius: 1rem;
     color: black;
+}
+
+.section-title span svg{
+    display: block;
+    width: fit-content;
 }

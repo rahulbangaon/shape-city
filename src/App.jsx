@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Gallery from "./pages/gallery/Gallery";
-import Plans from "./pages/plans/Plans";
+import Memberships from "./pages/memberships/Memberships";
 import Trainers from "./pages/trainers/Trainers";
 import Contact from "./pages/contact/Contact";
 import Error from "./pages/error/Error";
@@ -16,16 +16,18 @@ import Error from "./pages/error/Error";
 
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/plans" element={<Plans />} />
+        <Route path="/memberships" element={<Memberships />} />
         <Route path="/trainers" element={<Trainers />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
