@@ -3,8 +3,8 @@
 
 ## [LiveDemo](https://shapecity.netlify.app)
 
-Welcome to the Shape City project repository! This project aims to replicate a gym web app's core features using cutting-edge technologies such as React, CSS, HTML and bootstrapped with Vite. 
-It's a great starting point to learn and build upon for creating fully responsive and high-performance react web applications.
+Welcome to the Shape City project repository! This project aims to replicate a gym web app's core features using cutting-edge technologies as React, CSS, HTML and bootstrapped with Vite. 
+It's a fully responsive and high-performance Single Page React web application (SPA).
 
 ![desktopMainHeader](https://github.com/rahulbangaon/shape-city/assets/59789121/c351d779-3e12-4cfa-9110-89b3204945e2)
 
@@ -71,6 +71,11 @@ This project is bootstrapped with Vite, so the project will be available at http
 
 ### Mobiles
 ![mobileHome](https://github.com/rahulbangaon/shape-city/assets/59789121/924bb5f9-6727-472e-9ded-68bcb61471e6)
+
+## Contributing
+If you would like to contribute to the project, please feel free to submit a pull request with your changes or improvements. We appreciate your help in making Shape City even better!
+
+Now you're all set to explore the Shape City project! Enjoy and happy coding!
 
 ## Authors
 
